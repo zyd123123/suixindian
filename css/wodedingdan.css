@@ -1,0 +1,195 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#ff3632,#ff7a18);
+    background:linear-gradient(left,#ff3632,#ff7a18);
+    color:#fff;
+    font-weight:both;
+    font-size:0.36rem;
+    text-align: center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.body{
+    width:7.02rem;
+    height:12.4rem;
+    margin:0 auto;
+    margin-top:0.88rem;
+}
+.body .title{
+    width:7.02rem;
+    height:0.88rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative;
+}
+.body .title span{
+   font-size:0.28rem;
+   color:#8f8f8f;
+}
+.body .title span:hover{
+    color:#ff3632;
+ }
+ .body .title span:hover{
+    color:#ff3632;
+ }
+ .header .iconfont{
+     float:left;
+     margin-left:0.25rem;
+ }
+ .header p{
+     float: left;
+     margin-left:2.6rem;
+ }
+.hen{
+    width:0.60rem;
+    height:0.05rem;
+    position: absolute;
+    bottom:0;
+    left:0.30rem;
+    transition: 1s;
+    background-color:#ff3632;
+}
+.body .title span:nth-child(2):hover~.hen{
+	left:1.5rem;
+	transition:left 1s;
+	width:0.85rem;
+}
+.body .title span:nth-child(3):hover~.hen{
+	left:2.96rem;
+	transition:left 1s;
+	width:0.85rem;
+}
+.body .title span:nth-child(4):hover~.hen{
+	left:4.42rem;
+	transition:left 1s;
+	width:0.85rem;
+}
+.body .title span:nth-child(5):hover~.hen{
+	left:5.89rem;
+	transition:left 1s;
+	width:0.85rem;
+}
+.body .fenlei{
+    width:100%;
+    height:4.5rem;
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(251, 91, 33, 0.18);
+    margin-top:0.24rem;
+    border-radius: 0.1rem;
+}
+.body .fenlei .box{
+    width:7.02rem;
+    height:0.7rem;
+    display: flex;  
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #f2f2f2; 
+}
+.body .fenlei .box .box-1{
+    color:#565555;
+    font-size:0.32rem;
+    line-height: 0.7rem;
+    margin-left:0.1rem;
+    
+}
+.body .fenlei .box .box-2{
+    color:#ff3931;
+    margin-right:0.1rem;
+}
+.body .fenlei .box2{
+    width:7.02rem;
+    height:2.3rem;
+    display: flex;
+    border-bottom: 0.01rem solid #f2f2f2;
+    
+}
+.body .fenlei .box2 .TT{
+    display: flex;
+    width:5.4rem;
+    height:2.3rem;
+}
+.body .fenlei .img{
+    width: 2.13rem;
+	height: 1.95rem;
+    border-radius: 3.13rem;
+    margin:0.2rem;
+    overflow: hidden;
+}
+.body .fenlei .text{
+    width: 2.7rem;
+    height: 1.95rem;
+    border-radius: 0.1rem;
+    margin-top:0.2rem;
+    margin-right:0.2rem;
+}
+.body .fenlei .text .top{
+    font-size: 0.3rem;
+    color:#333;
+    margin-top:0.2rem;
+}
+.body .fenlei .text .min-title{
+    font-size: 0.2rem;
+    color:#999999;
+}
+.body .fenlei .text .many{
+    font-size: 0.36rem;
+    color: #ff3931;
+    margin-top:0.15rem;
+}
+.body .fenlei .text .many span{
+    font-size: 0.24rem;
+    color: #ff3931;
+}
+.body .fenlei .text .sell{
+    font-size: 0.2rem;
+    color: #999999;
+    margin-top:0.1rem;
+}
+.body .fenlei .box3{
+    width:6.95rem;
+    height:0.6rem;
+    margin:0.1rem auto 0;
+    text-align: right;
+    line-height: 0.6rem;
+    color:#333;
+    font-size:0.26rem;
+}
+.body .fenlei .box4 button{
+    width: 1.20rem;
+    height: 0.39rem;
+    border-radius: 0.20rem;
+    border: 0;
+    font-size:0.2rem;
+    text-align: center;
+    line-height: 0.36rem;
+    color:#fff;
+    background: #d3d3d3;
+    float:right;
+    margin-right:0.3rem;
+}
+.body .fenlei .box4 button:first-child{
+   background:-webkit-linear-gradient(left,#ff4c41,#ffa402);
+   background:linear-gradient(left,#ff4c41,#ffa402);
+}
+.body .fenlei2{
+    margin-top:0.3rem;
+}
+.body .fenlei .shopping{
+    width:1.6rem;
+    height:2.3rem;
+    text-align: right;
+}
+.body .fenlei .shopping{
+    font-size:0.33rem;
+    color:#b2b2b2;
+    line-height:4.2rem;
+    margin-right:0.1rem;
+}
+.shopping .shopping-ridius .iconfont{
+    line-height:0.5rem;
+    font-size:0.4rem;  
+    color:#ff6520;
+}

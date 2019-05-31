@@ -1,0 +1,374 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#ff3632,#ff7a18);
+    background:linear-gradient(left,#ff3632,#ff7a18);
+    color:#fff;
+    font-weight:both;
+    font-size:0.36rem;
+    text-align: center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+ .body{
+    width:7.5rem;
+    height:0.95rem;
+    margin:0 auto 0.2rem;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    margin-top:0.88rem;
+}
+.tab{
+    width:7.5rem;
+    border-top:0.01rem solid #b7b7b7;
+    height:0.96rem;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    padding:0 24px;
+    box-sizing: border-box;
+    background:#fefefe;
+}
+ .body .iconfont {
+    width:0.42rem;
+    height:0.47rem;
+    color:#ff5626;
+    line-height:0.95rem;
+}
+.body span {
+    font-size:0.34rem;
+    color:#191919;
+}
+.tab .small{
+    width:1rem;
+    height:0.98rem;
+    
+}
+.tab .small a{
+    display: block;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.tab .small a .iconfont{
+    font-size:0.44rem;
+    color:#989898;
+}
+.tab .small a .shouye{
+    font-size:0.18rem;
+    color:#4c4c4c;
+}
+.tab .small .a1 .iconfont{
+    color:#ff5626;
+}
+.tab .small .a1 .shouye{
+    color:#ff5626;
+}
+.sosuo{
+    display:flex;
+    justify-content:center;
+    width:7.5rem;
+    height:1.3rem;
+    position: relative;
+}
+.sosuo .iconfont{
+    position:absolute;
+    left:0.6rem;
+    top:0.2rem;
+    font-size:0.44rem;
+    color:#999999;
+}
+.sosuo .icon-guanbi{
+    position:absolute;
+    left:5.2rem;
+    top:0.2rem;
+    font-size:0.44rem;
+    color:#999999;
+}
+.sosuo input{
+    width:6rem;
+    height:0.8rem;
+    background-color:#fff;
+    border-radius:1rem 0 0 1rem;
+    outline: none;
+    border:0;
+    box-shadow:-0.09rem 0 0.1rem 0.05rem #fef4f0;
+    text-indent: 1rem;
+    display: block;
+}
+.sosuo  button{
+    display: block;
+    outline: none;
+    height:0.83rem;
+    background-color:#fff;
+    border:0;
+    box-shadow:0.09rem 0 0.1rem 0.05rem #fef4f0;
+    border-radius:0 1rem 1rem 0;
+}
+.sosuo  span{
+    position: absolute;
+    left:5.9rem;
+    top:0.23rem;
+}
+.bigbox{
+    width:100%;
+    height:auto;
+    background:#fefefe;
+    margin-bottom:2rem;
+}
+
+.bigbox .box{
+    width:7.02rem;
+    height:3.95rem;
+    margin:0 auto;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.bigbox .box a{
+    width:7.02rem;
+    height:3.95rem;
+    display:block;
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+.bigbox .box a img{
+    width:7rem;
+    height:5rem;  
+}
+.bigbox .box a .text{
+    width:7.02rem;
+    height:1.51rem;
+    background:rgba(34, 31, 31, 0.637);
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    line-height:1.51rem;
+    color:#fff;
+    border-radius: 0.1rem;
+}
+.bigbox .box a .text p:nth-child(1){
+    font-size:0.36rem;
+    margin-left:0.25rem;
+}
+.bigbox .box a .text p:nth-child(2){
+    font-size:0.3rem;
+    margin-right:0.2rem;
+    line-height:1.65rem;
+}
+.bigbox .box a .text p span{
+    font-size:0.50rem;
+    color:#ff5626;
+}
+.bigbox .conter{
+    width:7.02rem;
+    height:1.66rem;
+    border-radius: 0.2rem;
+    margin:0.5rem auto  0;
+    overflow: hidden;
+    box-shadow: 0 0  0.2rem 0.01rem #ff5626;
+}
+.bigbox .conter img{
+    width:101%;
+    height:101%;
+}
+.bigbox .jifen{
+    width:7.02rem;
+    height:2.95rem;
+    margin: 0.5rem auto 0;  
+}
+.bigbox .jifen div{
+    width:3.42rem;
+    height:1.41rem;
+    box-shadow: 0 0  0.05rem 0.01rem #ff5626;
+}
+.bigbox .jifen div:first-child{
+    width:3.42rem;
+    height:2.95rem;
+    float:left;
+}
+.bigbox .jifen .jifen1{
+    float:right;
+}
+.bigbox .jifen .jifen2{
+    margin-top:0.15rem;
+}
+.bigbox .jifen div p:first-child{
+    color:#ff6a39;
+    font-size:0.36rem;
+    line-height:1rem;
+    margin-left:0.2rem;
+}
+.bigbox .jifen div p:nth-child(2){
+    color:#4d4d4d;
+    font-size:0.24rem;
+    line-height:0.001rem;
+    margin-left:0.2rem;
+}
+.bigbox .jifen div img{
+    width:2.38rem;
+    height:1.28rem;
+    display: block;
+    margin:0.4rem auto 0;
+}
+.bigbox .jifen .jifen3{
+    display: flex;
+    justify-content: space-between;
+}
+.bigbox .jifen .jifen3 .photo{
+    width:0.76rem;
+    height:0.76rem;
+}
+.bigbox .jifen .jifen3 .photo1{
+    height:0.85rem;
+}
+.bigbox .jifen .jifen3 pre{
+    font-size:0.24rem;
+    line-height:1.5rem;
+    margin-left:0.3rem;
+}
+.bigbox .jifen .jifen3 .text{
+    width:2rem;
+    height:1.3rem;
+    box-shadow: 0 0 0 0;
+    margin:0.1rem;
+}
+input::-webkit-input-placeholder{
+    color:#d8d8d8;
+}
+.bigbox .huishike {
+    width:7.02rem;
+    height:0.7rem;
+    margin:0.3rem auto 0;
+    display: flex;
+}
+.bigbox .huishike img{
+    width:0.63rem;
+    height:0.63rem;
+}
+
+.bigbox .huishike div{
+    font-size:0.36rem;
+    margin-left:0.3rem;
+    line-height:0.7rem;
+}
+.bigbox .bottom{
+    width:7.02rem;
+    height:2.3rem;
+    background:#fff;
+    box-shadow: 0 0  0.05rem 0.01rem #ff5626;
+    margin:0.3rem auto 0; 
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.bigbox .bottom .banner{
+    width:3.20rem;
+    height:1.93rem;
+    margin:0.2rem;
+    overflow: hidden;
+    border-radius: 0.1rem;
+}
+.bigbox .bottom .banner img{
+    width:3.20rem;
+    height:1.93rem;
+
+}
+.bigbox .bottom .text{
+    height:1.93rem;
+    width:2.3rem;
+    margin-top:0.2rem;
+    border-radius: 0.1rem;
+}
+.bigbox .bottom .text .title{
+    color:#191919;
+    font-size:0.3rem;
+}
+.bigbox .bottom .text .min-title{
+    color:#999999;
+    font-size:0.2rem;
+}
+.bigbox .bottom .text .much{
+    color:#ffdddc;
+    font-size:0.24rem;
+    margin-top:0.1rem;
+}
+.bigbox .bottom .text .sim-much{
+    color:#ff5751;
+    font-size:0.26rem;
+    margin-top:0.1rem;
+}
+.bigbox .bottom .text .max-title{
+    color:#999999;
+    font-size:0.18rem;
+    margin-top:0.15rem;
+}
+.bigbox .bottom .tehui{
+    width:0.42rem;
+    height:1.18rem;
+    background-color:#ff3931;
+    margin-left:0.2rem;
+}
+.bigbox .bottom .tehui  p{
+    margin-left:0.08rem;
+    font-size:0.24rem;
+    color:#fff;
+    margin-top:0.13rem;
+}
+.bigbox .bottom .tehui div{
+    border-left:0.21rem solid transparent;
+    border-right:0.21rem solid transparent;
+    border-bottom:0.21rem solid #fff;
+    border-top:0.21rem solid transparent;
+}
+.bigbox .bottom .text .sim-much2{
+    margin-top:0.3rem;
+}
+.bigbox .bottom .nine{
+    border-left:0.5rem solid transparent;
+    border-right:0.5rem solid #ff5751;
+    border-bottom:0.5rem solid transparent;
+    border-top:0.5rem solid #ff5751;
+    width:0rem;
+    height:0rem;
+    margin-left:0.2rem;
+}
+.bigbox .bottom .number{
+    position: absolute;
+    right:0.1rem;
+    top:0.1rem;
+    color:#fff;
+    font-size:0.24rem;
+}
+.bigbox .none{
+    width:7.02rem;
+    height:0.5rem;
+    margin:0.5rem auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigbox .none .left{
+    width:2.25rem;
+    height:0.02rem;
+    background:#fec1c1;
+}
+.bigbox .none span{
+    font-size:0.2rem;
+    color:#fec1c1;
+}
+.bigbox .none .right{
+    width:2.25rem;
+    height:0.02rem;
+    background:#fec1c1;
+}

@@ -1,0 +1,184 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:-webkit-linear-gradient(left,#ff3632,#ff7a18);
+    background:linear-gradient(left,#ff3632,#ff7a18);
+    color:#fff;
+    font-weight:both;
+    font-size:0.36rem;
+    text-align: center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+.body{
+    width:7.02rem;
+    height:12.4rem;
+    margin:0 auto;
+    margin-top:0.88rem;
+}
+.body .title{
+    width:7.02rem;
+    height:0.88rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative;
+}
+.body .title span{
+   font-size:0.28rem;
+   color:#8f8f8f;
+}
+.body .title span:hover{
+    color:#ff3632;
+ }
+.hen{
+    width:0.47rem;
+    height:0.05rem;
+    background-color:#ff3632;
+    position: absolute;
+    bottom:0;
+    left:0.25rem;
+    transition: 1s;
+}
+.body .title span:nth-child(2):hover~.hen{
+	left:1.25rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .title span:nth-child(3):hover~.hen{
+	left:2.25rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .title span:nth-child(4):hover~.hen{
+	left:3.25rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .title span:nth-child(5):hover~.hen{
+	left:4.25rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .title span:nth-child(6):hover~.hen{
+	left:5.25rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .title span:nth-child(7):hover~.hen{
+	left:6.3rem;
+	transition:left 1s;
+	width:0.47rem;
+}
+.body .fenlei{
+    width:100%;
+    height:2.3rem;
+    background: #fff;
+    box-shadow: 0px 4px 32px 0px rgba(251, 91, 33, 0.18);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top:0.24rem;
+    border-radius: 0.1rem;
+}
+.body .fenlei .img{
+    width: 3.13rem;
+	height: 1.95rem;
+    border-radius: 0.1rem;
+    margin:0.2rem;
+}
+.body .fenlei .text{
+    width: 2.7rem;
+    height: 1.95rem;
+    border-radius: 0.1rem;
+    margin-top:0.2rem;
+    margin-right:0.2rem;
+}
+.body .fenlei .text .top{
+    font-size: 0.3rem;
+    color:#ff3632;
+    margin-top:0.2rem;
+}
+.body .fenlei .text .min-title{
+    font-size: 0.2rem;
+    color:#999999;
+}
+.body .fenlei .text .many{
+    font-size: 0.36rem;
+    color: #ff3931;
+    margin-top:0.15rem;
+}
+.body .fenlei .text .many span{
+    font-size: 0.24rem;
+    color: #ff3931;
+}
+.body .fenlei .text .sell{
+    font-size: 0.2rem;
+    color: #999999;
+    margin-top:0.1rem;
+}
+
+.body .fenlei .shopping{
+    width:0.77rem;
+    height: 1.95rem;
+    border-radius: 0.1rem;
+    margin-top:0.2rem;
+}
+.shopping .shopping-ridius{
+    width: 0.5rem;
+	height: 0.5rem;
+	background-color: #ffffff;
+	box-shadow: 0 0.07rem 0.32rem 0px 
+        rgba(251, 91, 33, 0.18);
+    border-radius: 0.5rem;
+    margin-top:1.45rem;
+    text-align: center;
+   
+}
+.shopping .shopping-ridius .iconfont{
+    line-height:0.5rem;
+    font-size:0.4rem;  
+    color:#ff6520;
+}
+.tab{
+    width:7.5rem;
+    border-top:0.01rem solid #b7b7b7;
+    height:0.96rem;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-around;
+    padding:0 24px;
+    box-sizing: border-box;
+    background:#fefefe;
+}
+.tab .small{
+    width:1rem;
+    height:0.98rem;
+    
+}
+.tab .small a{
+    display: block;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.tab .small a .iconfont{
+    font-size:0.44rem;
+    color:#989898;
+}
+.tab .small a .shouye{
+    font-size:0.18rem;
+    color:#4c4c4c;
+}
+.tab .small .a2 .iconfont{
+    color:#ff5626;
+}
+.tab .small .a2 .shouye{
+    color:#ff5626;
+}
